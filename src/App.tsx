@@ -1,7 +1,13 @@
-import { Tasks } from './componenst/Tasks';
+import { Provider } from 'react-redux';
+import store from '../store/store.ts';
+import { Tasks } from './componenst';
 
 function App() {
-    return <Tasks />;
+    return (
+        <Provider store={store}>
+            <Tasks />
+        </Provider>
+    );
 }
 
 export default App;
