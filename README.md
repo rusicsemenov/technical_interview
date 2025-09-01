@@ -1,6 +1,8 @@
-# Technical Interview Project - Day 1
+# Technical Interview Project
 
-A React + TypeScript + Vite application designed for technical interview practice. This project demonstrates various React concepts including state management with Redux, component architecture, API integration, and modern development practices.
+A React + TypeScript + Vite application designed for technical interview practice. This project demonstrates various
+React concepts including state management with Redux, component architecture, API integration, and modern development
+practices.
 
 ## 🚀 Features
 
@@ -58,12 +60,14 @@ public/                   # Public assets
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd day1_techInterview
 ```
 
 2. Install dependencies:
+
 ```bash
 pnpm install
 # or
@@ -71,6 +75,7 @@ npm install
 ```
 
 3. Start the development server:
+
 ```bash
 pnpm dev
 # or
@@ -91,12 +96,14 @@ npm run dev
 This project serves as a technical interview practice application with the following objectives:
 
 ### Current Implementation
+
 - ✅ Basic React + TypeScript setup with Vite
 - ✅ Redux store configuration with example reducer
 - ✅ Tasks component that fetches and displays markdown content
 - ✅ Mock user data structure
 
 ### Planned Features (Based on tasks.md)
+
 - [ ] Header and Footer components with styling
 - [ ] Real-time clock component in footer
 - [ ] Counter component with increment/decrement functionality
@@ -108,20 +115,24 @@ This project serves as a technical interview practice application with the follo
 ## 🔧 Development
 
 ### Code Style
+
 - ESLint configuration with TypeScript support
 - Prettier for consistent code formatting
 - TypeScript strict mode enabled
 
 ### State Management
+
 The application uses Redux for state management with the following structure:
+
 - `example` reducer containing:
-  - `headerText`: Text to display in header
-  - `footerHtml`: HTML content for footer
-  - `arrayToFlat`: Nested array for flattening demonstration
-  - `counter`: Counter state
-  - `users`: User data array
+    - `headerText`: Text to display in header
+    - `footerHtml`: HTML content for footer
+    - `arrayToFlat`: Nested array for flattening demonstration
+    - `counter`: Counter state
+    - `users`: User data array
 
 ### Component Architecture
+
 - Functional components with TypeScript
 - React hooks for state management
 - Component composition pattern
@@ -141,7 +152,3 @@ This is a personal project for technical interview practice. Feel free to fork a
 ## 📄 License
 
 This project is for educational purposes only.
-
----
-
-**Note**: This project is part of a 100-day coding challenge focused on technical interview preparation.
